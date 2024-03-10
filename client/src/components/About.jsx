@@ -58,7 +58,7 @@ const About = () => {
             <div className="flex flex-col gap-4   md:flex md:flex-col md:gap-10">
               <p className="text-lg">
                 <span className="font-bold text-lg">Email : </span>
-                bharat.chavhan.2001@gmail.com
+                bharat.r.chavhan@gmail.com
               </p>
               <p className="text-lg">
                 <span className="font-bold text-lg">Phone : </span>+91 7066 3600
