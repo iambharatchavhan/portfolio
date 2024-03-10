@@ -33,7 +33,7 @@ const Contact = () => {
                 </div>
                 <div className="inline-flex space-x-2 items-center">
                   <MdEmail />
-                  <span>bharat.chavhan.2001@gmail.com</span>
+                  <span>bharat.r.chavhan@gmail.com</span>
                 </div>
                 <div className="inline-flex space-x-2 items-center">
                   <FaLocationDot />
