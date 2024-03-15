@@ -21,7 +21,7 @@ const About = () => {
       </p>
       <div className="flex flex-col justify-center items-center flex-wrap md:w-[800px]   md:flex-row md:gap-4 lg:w-11/12 lg:flex-nowrap lg:gap-10">
         <div className="shadow-xl">
-          <img src={aboutBg} alt="aboutBg" className=" w-[350px] md:w-[600px] lg:w-[1300px]" />
+          <img src={aboutBg} alt="aboutBg" className=" w-[350px] md:w-[600px] lg:w-[800px] " />
 
           
         </div>
