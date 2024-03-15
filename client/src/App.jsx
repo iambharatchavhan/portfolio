@@ -10,14 +10,14 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-  <>
+  <div className="flex flex-col justify-center items-center bg-[#F3F4F6]">
   <Header/>
   <Home/>
   <About/>
   <Projects/>
   <Contact/>
   <Footer/>
-  </>
+  </div>
   
        
   

@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <section id="home" className="h-[100svh]">
+    <section id="home" className="h-[100svh] w-11/12">
       <div className="w-full h-full flex justify-center items-center relative">
         <div className="flex flex-col w-full justify-center items-center gap-2">
           <img src={Hero} alt="hero" className="w-[90%] border-2 border-[#173B6C] rounded-full md:w-1/4"/>
@@ -24,6 +24,7 @@ const Home = () => {
                 ],
                 autoStart: true,
                 loop: true,
+                
               }}
             />
           </h2>
@@ -33,7 +34,7 @@ const Home = () => {
           </div>
      <Link to="contact" smooth={true} duration={1000} className="border-[1px] px-6 py-2 bg-blue-400 rounded-md text-white text-bold z-10 cursor-pointer">Hire me</Link>
         </div>
-        <div className="w-full h-full absolute z-0 bg-[#3131311f]"></div>
+     
       </div>
     </section>
   );

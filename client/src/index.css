@@ -3,10 +3,3 @@
 @tailwind utilities;
 
 
-.gradient--image{
-    background: url('./assets/glob.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 1px solid green;
-}
