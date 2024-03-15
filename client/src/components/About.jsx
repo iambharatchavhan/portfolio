@@ -6,12 +6,12 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-[100svh] flex flex-col justify-normal items-center p-4 gap-2"
+      className="min-h-[100svh] flex flex-col justify-normal items-center p-4 gap-2 w-11/12"
     >
-      <p className="text-3xl  text-[#173B6C] font-bold mt-16 text-left w-[350px] md:w-[800px] lg:w-[1300px] lg:mt-32">
+      <p className="text-3xl  text-[#173B6C] font-bold mt-16 text-left w-[350px] md:w-[800px] lg:w-11/12 lg:mt-32">
         <span className="border-b-4 border-blue-400">Ab</span>out
       </p>
-      <p className="md:w-[800px] lg:w-[1300px]">
+      <p className="md:w-[800px] lg:w-11/12">
         Embarking on a dynamic journey as a full-stack developer, my passion
         lies in meticulously crafting seamless, user-centric web experiences.
         With an unwavering commitment to innovation, I thrive on pushing the
@@ -19,7 +19,7 @@ const About = () => {
         exciting quest to redefine the digital landscape and elevate the art of
         full-stack development.
       </p>
-      <div className="flex flex-col justify-center items-center flex-wrap md:w-[800px]   md:flex-row md:gap-4 lg:w-[1300px] lg:flex-nowrap lg:gap-10">
+      <div className="flex flex-col justify-center items-center flex-wrap md:w-[800px]   md:flex-row md:gap-4 lg:w-11/12 lg:flex-nowrap lg:gap-10">
         <div className="shadow-xl">
           <img src={aboutBg} alt="aboutBg" className=" w-[350px] md:w-[600px] lg:w-[1300px]" />
 
